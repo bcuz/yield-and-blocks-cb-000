@@ -3,7 +3,7 @@ def hello_t(arr)
   arr.each do |i|
     yield(i)
 
-    
+
   end
 else
   puts "Hey! No block was given!\n"
